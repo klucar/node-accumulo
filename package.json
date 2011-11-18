@@ -1,0 +1,19 @@
+{
+  "author": "Jim Klucar <klucar@gmail.com>",
+  "name": "accumulo",
+  "description": "nodejs interface to Accumulo database",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klucar/node-accumulo.git"
+  },
+  "main": "./lib/accumulo.js",
+  "lib" : "./gen-nodejs",
+  "engines": {
+    "node": "~0.6.0"
+  },
+  "dependencies": {
+    "thrift" : "*"
+  },
+  "devDependencies": {}
+}
